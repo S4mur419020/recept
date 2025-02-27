@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('hatter.jpg');
+    background-size: cover;
+    border: 1px solid white;
+}
+main{
+    width:80%;
+    max-width: 1000px;
+    margin: auto;
+    font-size: larger;
+    color: white;
+}
+header{
+    background-color: rgb(53, 53, 143);
+    border:1px solid white;
+}
+h1{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+}
+nav{
+    border: 2px solid white;
+}
+li{
+    list-style: none;
+}
+a{
+    font-size: large;
+    text-decoration: none;  
+    border: 2px solid gray;
+    padding:  10px;
+    color: white;
+}
+a:hover{
+    color :red;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+
